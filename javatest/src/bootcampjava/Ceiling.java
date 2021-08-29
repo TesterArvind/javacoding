@@ -1,17 +1,17 @@
 package bootcampjava;
 
-public class BinarySearch {
+public class Ceiling {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] b = {1,2,34,35,234,1234};
+		int[] b = {2,5,6,8,90,901};
 		int tar = 36;
-		System.out.println(binarySearch(b,tar));
+		System.out.println(Ceilin(b,tar));
 
 	}
 	
-	static int binarySearch(int[] a, int target) {
+	static int Ceilin(int[] a, int target) {
 		int s=0;
 		int e=a.length-1;
 		
